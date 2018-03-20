@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: lightgray;
+    padding: 5px;
+}
+
+div {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+
+img{
+    margin:inherit;
+    width: 15%;
+    border: 6px dashed darkgray;
+    padding: 14px;
+}
