@@ -32,11 +32,11 @@
 
 .site-header .site-nav {
   transition: all .5s ease-out;
-  background: rgba(0,0,0,0);
+  background: #800020;
 }
 
 .site-header .inbody {
-  background: rgba(56, 56, 56, 0.9);
+  background: darkgray;
 }
 
 .site-header .jumbotron {
@@ -50,7 +50,7 @@
 }
 
 #layout-multicolumn {
-  background: #DDD;
+  background: darkgray;
 }
 
 #layout-multicolumn .photo-modal {
@@ -66,7 +66,7 @@
 }
 
 #layout-nested {
-  background: linear-gradient(135deg, #888, #222);
+  background: darkgray;
 }
 
 
@@ -76,7 +76,7 @@
 }
 
 #layout-float {
-  background: radial-gradient(ellipse at left, #585858 0, #232323 100%);
+  background: #800020;
 }
 
 @keyframes fadein {
@@ -91,7 +91,7 @@
 
 #layout-carousel .fade .carousel-item {
   background: linear-gradient(rgba(0, 0, 0, .50) 50px, transparent),
-  url(https://dummyimage.com/16:9x400/6.png&text=+);
+  url();
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,7 +143,7 @@
 }
 
 .footer {
-  background: #2D8BCF;
+  background: black;
 }
 
 .footer a {
@@ -156,6 +156,6 @@
 }
 
 .footer p::first-letter {
-  color: #8AC8E1;
+  color: red;
   font-size: 200%;
 }
