@@ -36,7 +36,7 @@
 }
 
 .site-header .inbody {
-  background: darkgray;
+  background: darkgrey;
 }
 
 .site-header .jumbotron {
@@ -50,7 +50,7 @@
 }
 
 #layout-multicolumn {
-  background: darkgray;
+  background: #800020;
 }
 
 #layout-multicolumn .photo-modal {
@@ -71,7 +71,7 @@
 
 #layout-contact_me .icon {
   font-size: 5rem;
-  color: #666;
+  color: #800020;
 }
 
 #layout-float {
@@ -138,7 +138,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-15deg);
-    img: "backdrop.jpg"
   }
 }
 
@@ -147,7 +146,7 @@
 }
 
 .footer a {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 
