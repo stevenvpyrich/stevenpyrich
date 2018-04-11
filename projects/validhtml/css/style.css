@@ -50,7 +50,7 @@
 }
 
 #layout-multicolumn {
-  background: #800020;
+   background: linear-gradient(white, #800020);
 }
 
 #layout-multicolumn .photo-modal {
@@ -66,16 +66,17 @@
 }
 
 #layout-nested {
-  background: darkgray;
+  color: green;
+}
+
+#layout-contact_me{
+  background: linear-gradient(#800020, darkgray);
+  color: #383838;
 }
 
 #layout-contact_me .icon {
   font-size: 5rem;
-  color: #800020;
-}
-
-#layout-float {
-  background: #800020;
+  color: lightgray;
 }
 
 @keyframes fadein {
@@ -117,8 +118,14 @@
 }
 
 #layout-carousel .fade .carousel-control-prev,
+
 #layout-carousel .fade .carousel-control-next {
   opacity: 0;
+}
+
+#layout-cards{
+  background: linear-gradient(darkgray, #800020);
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -137,7 +144,10 @@
   #layout-float img {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-15deg);
+    transform: translate(-50%, -50%);
+  }
+  #layout-float {
+    background: #800020;
   }
 }
 
