@@ -7,6 +7,7 @@
     <script defer src="js/lib/fontawesome-all.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>StevenVPhotography</title>
   </head>
   <body data-spy="scroll" data-target=".site-nav" data-offset="80">
@@ -17,16 +18,15 @@
     <div class="container-fluid">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
       <a class="navbar-brand text-uppercase font-weight-light" href="#layout-hero"><i class="fas fa-camera"></i> Steven V. Photography</a>
       <div class="collapse navbar-collapse" id="myTogglerNav">
         <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
-          <a class="nav-item nav-link" href="#layout-hero">home</a>
+          <a class="nav-item nav-link" href="#layout-hero">Home</a>
           <a class="nav-item nav-link" href="#layout-multicolumn">My Works</a>
           <a class="nav-item nav-link" href="#layout-carousel">Carousel</a>
-          <a class="nav-item nav-link" href="#layout-float">History</a>
           <a class="nav-item nav-link" href="#layout-contact_me">Contact Me</a>
-          <a class="nav-item nav-link" href="#layout-cards">cards</a>
+          <a class="nav-item nav-link" href="#layout-cards">Cards</a>
         </div>
       </div>
     </div>
@@ -34,10 +34,10 @@
   <section id="layout-hero" class="jumbotron jumbotron-fluid d-flex align-items-center mt-5">
     <div class="container text-center text-white">
       <div class="row justify-content-center">
-        <div class="col-11 col-sm-10 col-md-8">
+        <div class="col-11 col-sm-10 col-md-8 animated fadeInUp">
           <h3 class="font-weight-normal">About Me</h3>
           <p class="family-serif lead pt-2 font-weight-light">Hi my name is Steven Pyrich and I love to take photos of almost everything in the world I would love to eventually have my own studio and I hope this website would be the kikstarter of that. My main favorites are portraits, landscape, and macro photos. I have been taking photos for years and I been with a couple professionals and have gotten some pointers.</p>
-            <a class="btn btn-outline-light" href="https://github.com/stevenvpyrich/stevenpyrich">My Github</a>
+            <a class="btn btn-outline-light" href="https://www.github.com/stevenvpyrich/stevenpyrich">My Github</a>
         </div><!-- col -->
       </div><!-- row -->
     </div><!-- container -->
@@ -57,71 +57,89 @@
           </a>
         <h5 class="title text-center text-uppercase font-weight-bold mt-1">Hand</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
         <a data-toggle="modal" data-target="#siteModal" data-highres="flower.jpg" href="#">
           <img class="img-fluid rounded" src="flower_decreased.jpg" alt="sample image">
         </a>
         <h5 class="title text-center text-uppercase font-weight-bold mt-1">Flower</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="sunset.jpg" href="#">
             <img class="img-fluid rounded" src="sunset_decreased.jpg" alt="sample image">
         </a>
         <h5 class="title text-center text-uppercase font-weight-bold mt-1">Sunset</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="flight.jpg" href="#">
             <img class="img-fluid rounded" src="flight_decreased.jpg" alt="sample image">
         </a>
         <h5 class="title text-center text-uppercase font-weight-bold mt-1">Flight</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
         <a data-toggle="modal" data-target="#siteModal" data-highres="dog.jpg" href="#">
           <img class="img-fluid rounded" src="dog_decreased.jpg" alt="sample image">
         </a>
         <h5 class="title text-center text-uppercase font-weight-bold mt-1">Dog</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="caution.jpg" href="#">
             <img class="img-fluid rounded" src="caution-min.jpg" alt="sample image">
         </a>
         <h5 class="title text-center text-uppercase font-weight-bold mt-1">Caution</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="checkers.jpg" href="#">
             <img class="img-fluid rounded" src="checkers-min.jpg" alt="sample image">
           </a>
           <h5 class="title text-center text-uppercase font-weight-bold mt-1">Checkers</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="jeep.jpg" href="#">
             <img class="img-fluid rounded" src="jeep-min.jpg" alt="sample image">
           </a>
           <h5 class="title text-center text-uppercase font-weight-bold mt-1">Jeep</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="flow.jpg" href="#">
             <img class="img-fluid rounded" src="flow-min.jpg" alt="sample image">
           </a>
           <h5 class="title text-center text-uppercase font-weight-bold mt-1">Flow</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="iphone7.jpg" href="#">
             <img class="img-fluid rounded" src="iphone7-min.jpg" alt="sample image">
           </a>
           <h5 class="title text-center text-uppercase font-weight-bold mt-1">iPhone 7</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="soft.jpg" href="#">
             <img class="img-fluid rounded" src="soft-min.jpg" alt="sample image">
           </a>
           <h5 class="title text-center text-uppercase font-weight-bold mt-1">Soft</h5>
       </section>
+
       <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
           <a data-toggle="modal" data-target="#siteModal" data-highres="steam.jpg" href="#">
             <img class="img-fluid rounded" src="steam-min.jpg" alt="sample image">
           </a>
           <h5 class="title text-center text-uppercase font-weight-bold mt-1">Steam</h5>
+      </section>
+
+      <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
+          <a data-toggle="modal" data-target="#siteModal" data-highres=".jpg" href="#">
+            <img class="img-fluid rounded" src=".jpg" alt="sample image">
+          </a>
+          <h5 class="title text-center text-uppercase font-weight-bold mt-1"></h5>
       </section>
 
     </div><!-- row -->
@@ -182,25 +200,6 @@
       </a>
       </div><!-- carousel-inner -->
   </div><!-- carousel -->
-</article>
-
-<article id="layout-float" class="section vertical-padding">
-  <section class="container text-white">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-8 col-md-4 img-container">
-          <img class="img-fluid img-special" src="floater_title.jpg" alt="Photo Sample">
-      </div>
-      <div class="col-10 col-md-6 align-self-center">
-        <div class="section-description my-5 text-center text-md-left pl-md-5">
-          <h2 class="font-weight-light">StevenVPhotography</h2>
-          <p class="family-serif font-weight-light">The history of StevenVPhotography is when I first started taking photos and taking over my moms job of taking photos for memories.
-            I then took a virtual class for high school for photography and I absolutely loved it.
-            That kind of was the kickstarter for my photography enthusiasm.
-            Then my dad got me the 60D for a gift and I've made good times with it so far and so many more to go.</p>
-        </div>
-      </div>
-    </div><!-- row -->
-  </section>
 </article>
 
 <article id="layout-contact_me" class="section">
